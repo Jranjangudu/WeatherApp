@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "./App.css";
 const API_KEY = "a1eaf28583d42c2f30fbfef8a6cd4b99";
-const baseURL = "https://api.openweathermap.org/data/2.5/";
+const baseURL = "http://api.openweathermap.org/data/2.5/";
 function App() {
   const [query, setQuery] = useState("");
   const [weather, setWeather] = useState({});
